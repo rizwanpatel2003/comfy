@@ -1,0 +1,32 @@
+# Node.js and npm ignore
+node_modules/
+npm-debug.log
+
+# Express.js ignore
+public/temp/
+
+# Mongoose and MongoDB ignore
+Backend/src/DB/index.js
+
+# Cloudinary ignore
+Backend/src/Utils/cloudinary.js
+
+# Vite and React ignore
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+
+# General ignore
+*.env
+*.log
+*.tmp
+*.DS_Store
+
+# Backend specific ignore
+Backend/src/app.js
+Backend/src/index.js
+Backend/src/constant.js
+
+# Frontend specific ignore
+Frontend/src/Store/CompySlice.js
+Frontend/src/Hooks/useInfo.js
